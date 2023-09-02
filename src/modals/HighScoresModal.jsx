@@ -2,10 +2,10 @@ import {
   Modal,
   ModalOverlay,
   ModalContent,
-  ModalHeader,
   ModalBody,
   ModalCloseButton,
   Text,
+  Heading,
 } from "@chakra-ui/react";
 import { formatTime } from "../assets/scripts/util";
 
@@ -15,7 +15,9 @@ export const HighScoresModal = ({ isOpen, onClose, highScores }) => {
       <ModalOverlay />
       <ModalContent border={"4px solid orange"} p={"30px"}>
         <ModalCloseButton color="green" fontSize={"1.2rem"} m={"20px"} />
-        <ModalHeader color="green">HIGH SCORES</ModalHeader>
+        <Heading color="green" mb={"10px"}>
+          HIGH SCORES
+        </Heading>
         <Text>
           Easy:{" "}
           {highScores.easy ? formatTime(highScores.easy) : "No score available"}

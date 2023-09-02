@@ -16,6 +16,7 @@ export const Cards = ({
       pointerEvents={allowMouseInteraction ? "auto" : "none"}
       width={[null, "90%", null, "60%"]}
       my={"40px"}
+      mx={"10px"}
       onClick={() => {
         startGame();
       }}

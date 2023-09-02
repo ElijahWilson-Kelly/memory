@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Flex, Grid, Heading, Text } from "@chakra-ui/react";
 
-import { themeContext } from "../contexts/ThemeContext";
+import { themeContext } from "../contexts/themeContext";
 import { MdOutlineLeaderboard } from "react-icons/md";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import { BsLightbulb, BsLightbulbOff } from "react-icons/bs";

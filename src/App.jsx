@@ -10,7 +10,7 @@ import { GameFinishedModal } from "./modals/GameFinshedModal";
 import { SelectDifficultyModal } from "./modals/SelectDifficultyModal";
 import { HighScoresModal } from "./modals/HighScoresModal";
 import { Footer } from "./components/Footer";
-import { themeContext } from "./contexts/ThemeContext";
+import { themeContext } from "./contexts/themeContext";
 
 const DELAY_BETWEEN_TURNS = 400;
 const DIFFICULTIES = {

@@ -7,7 +7,6 @@ import {
   ModalBody,
   Button,
   Text,
-  Box,
 } from "@chakra-ui/react";
 
 import { formatTime } from "../assets/scripts/util";

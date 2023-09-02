@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import "../styles/cube.css";
-import { themeContext } from "../contexts/ThemeContext";
+import { themeContext } from "../contexts/themeContext";
 
 export const Cube = () => {
   const { theme } = useContext(themeContext);
