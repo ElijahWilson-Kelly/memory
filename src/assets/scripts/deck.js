@@ -64,6 +64,10 @@ const cards = [
     image: KING_OF_HEARTS,
     type: "king_of_hearts",
   },
+  {
+    image: ACE_OF_HEARTS,
+    type: "ace_of_hearts",
+  },
 ];
 
 const fisherYatesShuffle = (cardsToShuffle) => {
@@ -105,7 +109,13 @@ export const populateCards = (numberOfCards) => {
       possibilities = [...cards];
     }
   }
-  return fisherYatesShuffle(result);
+
+  // Shuffle a few times
+  for (let i = 0; i < 4; i++) {
+    result = fisherYatesShuffle(result);
+  }
+
+  return result;
 };
 
 export const getDefaultCards = () => {

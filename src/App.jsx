@@ -164,6 +164,7 @@ export const App = () => {
         cards={cards}
         columns={difficulty && DIFFICULTIES[difficulty][0]}
         rows={difficulty && DIFFICULTIES[difficulty][1]}
+        difficulty={difficulty}
         allowMouseInteraction={allowMouseInteraction}
         flipCard={flipCard}
         startGame={startGame}

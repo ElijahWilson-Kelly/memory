@@ -1,8 +1,19 @@
-# React + Vite
+<h1 style="border-bottom: 1px solid black; font-weight: 300">Memory</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![instructions](./images_README/instructions.png)
 
-Currently, two official plugins are available:
+1. Dark / Light mode selecter
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. High scores
+
+3. New Game / Change Difficulty
+
+4. Timer
+
+5. Playing cards
+
+#### How to play
+
+Select a card to turn it over. Then select another card. If they are cards of the same number they will remain face up otherwise they will be turned back over. The game ends when all cards are face up. And your score is the time it took you to complete.
+
+Enjoy
